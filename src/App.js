@@ -12,6 +12,7 @@ import styled from 'styled-components';
 
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core';
+import PageNotFound from './components/PageNotFound';
 
 library.add(fab, faClock, faStar, faPlayCircle);
 
@@ -41,6 +42,7 @@ const App = () => {
         <Switch>	
           <Route exact path="/" component={ HomePage } />
           <Route path="/movie/:movieId" component={MoviePage} />
+          <Route component={PageNotFound} />
         </Switch>
         <footer css={mainFooter}>
           <p>© Copyright Reserved 2020</p>

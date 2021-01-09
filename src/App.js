@@ -42,7 +42,7 @@ const App = () => {
         <Switch>	
           <Route exact path="/" component={ HomePage } />
           <Route path="/movie/:movieId" component={MoviePage} />
-          <Route component={PageNotFound} />
+          <Route path="*" component={PageNotFound} />
         </Switch>
         <footer css={mainFooter}>
           <p>© Copyright Reserved 2020</p>

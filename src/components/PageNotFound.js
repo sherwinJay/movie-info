@@ -6,7 +6,8 @@ const notFoundContainer = css`
     display: grid;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    color: #fff;
+    min-height: 85vh;
 `;
 
 const PageNotFound = () => {

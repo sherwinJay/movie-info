@@ -20,8 +20,14 @@ const linkText = css`
 const PageNotFound = () => {
   return (
     <div css={notFoundContainer}>
-      <h1>Page Not Found</h1>
-      <Link to="/" css={linkText}>Go back to home page.</Link>
+      <div>
+        <h1>
+          Page Not Found
+        </h1>
+        <Link to="/" css={linkText}>
+          Go back to home page.
+        </Link>
+      </div>
     </div>
   )
 }

@@ -12,9 +12,11 @@ const notFoundContainer = css`
 `;
 const linkText = css`
   text-align: center;
-  margin-top: 15px;
+  margin-top: 25px;
   text-decoration: underline;
   color: #fff;
+  display: block;
+
 ` 
 
 const PageNotFound = () => {
